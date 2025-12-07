@@ -1,0 +1,37 @@
+/* Dark gray top navbar */
+.custom-nav {
+    background-color: rgba(33, 37, 41, 0.8);
+    border-bottom: 1px solid #F5522F;
+    backdrop-filter: blur(10px);
+}
+
+/* Bottom navbar */
+.custom-nav-bottom {
+    background-color: rgba(33, 37, 41, 0.8);
+    border-top: 1px solid #F5522F;
+    backdrop-filter: blur(10px);
+}
+
+/* Divider lines for top navbar */
+.custom-nav .navbar-nav .nav-item {
+    padding: 0 1rem;
+    border-right: 1px solid #F5522F;
+}
+
+.custom-nav .navbar-nav .nav-item:last-child {
+    border-right: none;
+}
+
+/* Divider lines and spacing for bottom navbar */
+.custom-nav-bottom .navbar-nav .nav-item {
+    padding: 0 10rem;
+    border-right: 1px solid #F5522F;
+}
+
+.custom-nav-bottom .navbar-nav .nav-item:last-child {
+    border-right: none;
+}
+
+html {
+    scroll-padding-top: 80px;
+}
