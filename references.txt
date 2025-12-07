@@ -1,0 +1,4 @@
+challenges
+- Making the contact form, first tried creating a separate file that user go to when they
+    click the link, but when the form is submitted they just go right back the contact form file
+    and not the main page, so then I made a section of the contact form at the bottom of the page.
