@@ -12,7 +12,7 @@
     backdrop-filter: blur(10px);
 }
 
-/* Only show dividers on horizontal navbar */
+/* only show dividers on horizontal navbar */
 @media (min-width: 992px) {
     .custom-nav .navbar-nav .nav-item {
         border-right: 1px solid #F5522F;
@@ -22,7 +22,7 @@
     }
 }
 
-/* Remove dividers for /hamburger menu */
+/* remove dividers when its a hamburger menu */
 @media (max-width: 991px) {
     .custom-nav .navbar-nav .nav-item {
         border-right: none;

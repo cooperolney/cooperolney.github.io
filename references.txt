@@ -7,7 +7,7 @@ Slugfest Files
   a slime was replaced with the profile picture and bio. And then kept the bootstrap cards
   for each section of the page.
 
-In Class Files
+Class Files
 - I used the sample_form.html file from class to get a refresher on how to use forms
   and Web3Forms. And based the contact form section from this code.
 
@@ -37,13 +37,10 @@ Google Searches
 - How to create the vertical lines in the nav bars and how to space them evenly,
   (https://stackoverflow.com/questions/4675371/vertical-divider-css)
 - Reminder on how to use media quieries in CSS, 
-  (https://www.w3schools.com/cssref/atrule_media.php)
+  (https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Using)
   This helped me with the top nav bar implementation, as there was an 
   unwanted vertical line prior to adding the media queries.
 
 Other
 - Copied the text from my resume and LinkedIn profile to create the bio
   and main sections of the page.
-
-responseive screen stuff
-
