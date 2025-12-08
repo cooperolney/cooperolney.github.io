@@ -1,11 +1,11 @@
-/* Dark gray top navbar */
+/* top navbar */
 .custom-nav {
     background-color: rgba(33, 37, 41, 0.8);
     border-bottom: 1px solid #F5522F;
     backdrop-filter: blur(10px);
 }
 
-/* Bottom navbar */
+/* bottom navbar */
 .custom-nav-bottom {
     background-color: rgba(33, 37, 41, 0.8);
     border-top: 1px solid #F5522F;
@@ -13,7 +13,7 @@
 }
 
 /* Only show dividers on horizontal navbar */
-@media (min-width: 992px) { /* lg and up, adjust if needed */
+@media (min-width: 992px) {
     .custom-nav .navbar-nav .nav-item {
         border-right: 1px solid #F5522F;
     }
@@ -22,7 +22,7 @@
     }
 }
 
-/* Remove divider for vertical/hamburger menu */
+/* Remove dividers for /hamburger menu */
 @media (max-width: 991px) {
     .custom-nav .navbar-nav .nav-item {
         border-right: none;
@@ -30,7 +30,7 @@
 }
 
 
-/* Divider lines and spacing for bottom navbar */
+/* dividers and spacing for bottom navbar */
 .custom-nav-bottom .navbar-nav .nav-item {
     padding: 0 11rem;
     border-right: 1px solid #F5522F;
