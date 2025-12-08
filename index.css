@@ -12,15 +12,23 @@
     backdrop-filter: blur(10px);
 }
 
-/* Divider lines for top navbar */
-.custom-nav .navbar-nav .nav-item {
-    padding: 0 1rem;
-    border-right: 1px solid #F5522F;
+/* Only show dividers on horizontal navbar */
+@media (min-width: 992px) { /* lg and up, adjust if needed */
+    .custom-nav .navbar-nav .nav-item {
+        border-right: 1px solid #F5522F;
+    }
+    .custom-nav .navbar-nav .nav-item:last-child {
+        border-right: none;
+    }
 }
 
-.custom-nav .navbar-nav .nav-item:last-child {
-    border-right: none;
+/* Remove divider for vertical/hamburger menu */
+@media (max-width: 991px) {
+    .custom-nav .navbar-nav .nav-item {
+        border-right: none;
+    }
 }
+
 
 /* Divider lines and spacing for bottom navbar */
 .custom-nav-bottom .navbar-nav .nav-item {

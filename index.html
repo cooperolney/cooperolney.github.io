@@ -48,7 +48,7 @@
     <div class="container my-2" style="max-width: 900px;">
 
         <!-- section 1: Picture + Bio -->
-        <div class="row align-items-center mt-5 p-3">
+        <div class="row align-items-center mt-5 p-1">
             <div class="col-md-5">
                 <!-- image column-->
                 <figure class="ps-5">
@@ -277,10 +277,7 @@
         <div class="card-body">
             <h1 class="mb-3">Contact Me</h1>
             <form action="https://api.web3forms.com/submit" method="POST">
-                <!-- Web3Forms API key -->
                 <input type="hidden" name="access_key" value="e5d3b2f3-2d80-4442-840e-3f42e4ee3ff4">
-                
-                <input type="hidden" name="redirect" value="#contact">
 
                 <div class="mb-3 col-md-6">
                     <label for="name" class="form-label">Name</label>
@@ -307,30 +304,58 @@
 
 
     <!-- bottom links bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-bottom custom-nav-bottom">
+    <nav class="navbar navbar-dark fixed-bottom custom-nav-bottom">
         <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="bottomNav">
-                <ul class="navbar-nav w-100 d-flex justify-content-around mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link text-white rounded px-3 py-2" style="background-color: #F5522F;"
-                            href="https://www.linkedin.com/in/cooper-olney-373916310" target="_blank">
-                            <i class="bi bi-linkedin"></i> LinkedIn</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white rounded px-3 py-2" style="background-color: #F5522F;"
-                            href="https://github.com/cooperolney" target="_blank">
-                            <i class="bi bi-github"></i> GitHub</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white rounded px-3 py-2" style="background-color: #F5522F;"
-                            href="assets/Cooper-Olney-Resume-2025.pdf" target="_blank">
-                            <i class="bi bi-file-earmark-text-fill"></i> Resume</a>
+
+            <!-- Full menu (desktop) -->
+            <ul class="navbar-nav w-100 d-flex flex-row justify-content-around align-items-center mb-0 d-none d-xl-flex"
+                id="bottom-full-menu">
+                <li class="nav-item">
+                    <a class="nav-link text-white rounded px-3 py-2" style="background-color: #F5522F;"
+                        href="https://www.linkedin.com/in/cooper-olney-373916310" target="_blank">
+                        <i class="bi bi-linkedin"></i> LinkedIn
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white rounded px-3 py-2" style="background-color: #F5522F;"
+                        href="https://github.com/cooperolney" target="_blank">
+                        <i class="bi bi-github"></i> GitHub
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white rounded px-3 py-2" style="background-color: #F5522F;"
+                        href="assets/Cooper-Olney-Resume-2025.pdf" target="_blank">
+                        <i class="bi bi-file-earmark-text-fill"></i> Resume
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Hamburger drop-up (mobile < 1410px) -->
+            <div class="dropup d-xl-none w-100 text-center">
+                <button class="btn text-white dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false" style="background-color:#F5522F;">
+                    <i class="bi bi-list"></i> Links
+                </button>
+
+                <ul class="dropdown-menu dropdown-menu-dark w-100 text-center">
+                    <li><a class="dropdown-item" href="https://www.linkedin.com/in/cooper-olney-373916310"
+                            target="_blank">LinkedIn</a></li>
+                    <li><a class="dropdown-item" href="https://github.com/cooperolney" target="_blank">GitHub</a></li>
+                    <li><a class="dropdown-item" href="assets/Cooper-Olney-Resume-2025.pdf" target="_blank">Resume</a>
                     </li>
                 </ul>
             </div>
+
         </div>
     </nav>
 
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
 
 </body>
 

@@ -1,4 +1,42 @@
-challenges
-- Making the contact form, first tried creating a separate file that user go to when they
-    click the link, but when the form is submitted they just go right back the contact form file
-    and not the main page, so then I made a section of the contact form at the bottom of the page.
+References
+
+Slugfest Files
+- I used the some of the Slugfest code to create a base for the personal portfolio.
+- I started off by copying the feed.html file and edited so that it could match my wireframe.
+- I kept a similar format with the fixed nav bar on top, and then the section to compose
+  a slime was replaced with the profile picture and bio. And then kept the bootstrap cards
+  for each section of the page.
+
+In Class Files
+- I used the sample_form.html file from class to get a refresher on how to use forms
+  and Web3Forms. And based the contact form section from this code.
+
+Example Websites for Inspiration
+- I looked up personal portfolio websites on google images and found this one,
+  (https://images-wixmp-530a50041672c69d335ba4cf.wixmp.com/templates/image/8cbcfd79df10d5e052cd6bf2ebf3eaa6b5417ea6b0327aaee2ae8c804e0a0b571615215483635.jpg)
+  I took some inspiration from this site, like the top and bottom nav bars and the bio section.
+- I found this example by looking up dark themed website examples,
+  (https://www.wallofportfolios.in/portfolios/abhishek-raj/)
+  I took inspiration from this site by using a similar dark theme and orange combination.
+
+Bootstrap Documentation
+- In icons section found all of the icons needed and the code to insert them into the page.
+  (https://icons.getbootstrap.com/)
+- In customize > color modes, it shows how to use dark mode.
+- In content > images I found the img-thumbnail to get the border around the profile picture.
+- In utilities > bordars I found the rounded-circle class to get the profile picture to be a circle. 
+- In forms > layout I used col-auto to pair with the image so it stays the correct size.
+- In layout > gutters I found out how to change gutter spacing.
+- In utlities > colors, I found out how to make the text gray with text-secondary.
+
+Google Searches
+- Reminder on how to use internal links, (https://www.w3schools.com/html/html_links.asp)
+- How to create a blurred effect with the nav bars with CSS properties,
+  (https://www.w3schools.com/howto/howto_css_blurred_background.asp)
+- How to create the vertical lines in the nav bars and how to space them evenly,
+  (https://stackoverflow.com/questions/4675371/vertical-divider-css)
+
+Other
+- Copied the text from my resume and LinkedIn profile to create the bio
+  and main sections of the page.
+
